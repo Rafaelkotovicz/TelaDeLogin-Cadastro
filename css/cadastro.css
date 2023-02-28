@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, black, rebeccapurple);
+}
+.cadastro{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 80px;
+    border-radius: 15px;
+}
+.botao{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: aliceblue;
+    border: none;
+}
+.entrada{
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.botao:hover{
+    background-color: darkviolet;
+    cursor: pointer;
+}
